@@ -1,10 +1,12 @@
 <script lang="ts">
-  import "../app.css";
+  // import "../app.css";
   import Navbar from "$lib/Navbar.svelte";
   import { base } from "$app/paths";
 
   //TODO: Make contact footer component
   //TODO: Replace all gray sections with pictures
+  //TODO: Make all buttons work
+  //TODO: Add favicon
 
   const howitworksitems = [
     {
