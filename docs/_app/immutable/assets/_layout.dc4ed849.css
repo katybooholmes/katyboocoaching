@@ -630,9 +630,6 @@ video {
 .bg-\[url\(\'\/katyboocoaching\/aboutbgstock\.jpg\'\)\] {
   background-image: url('/katyboocoaching/aboutbgstock.jpg');
 }
-.bg-\[url\(\'\/katyboocoaching\/homepageheader\.jpg\'\)\] {
-  background-image: url('/katyboocoaching/homepageheader.jpg');
-}
 .bg-cover {
   background-size: cover;
 }
