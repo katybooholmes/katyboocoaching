@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import Navbar from "$lib/Navbar.svelte";
 </script>
 
@@ -13,7 +14,7 @@
 <div class="w-full bg-white p-8">
   <div class="flex justify-center items start px-8 lg:w-2/3 gap-8">
     <div class="flex-1">
-      <img src="/blog1.jpg" alt="" />
+      <img src={base + "/blog1.jpg"} alt="" />
       <img src="" alt="" />
     </div>
     <div class="flex-1 flex flex-col gap-4">

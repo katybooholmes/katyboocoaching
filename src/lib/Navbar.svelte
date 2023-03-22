@@ -2,13 +2,13 @@
   import { base } from "$app/paths";
 
   const navItems = [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "How it Works", href: "/how" },
-    { label: "Resume Writing", href: "/resume" },
-    { label: "Contact", href: "/contact" },
-    { label: "Testimonials", href: "/testimonials" },
-    { label: "Blog", href: "/blog" },
+    { label: "Home", href: base + "/" },
+    { label: "About", href: base + "/about" },
+    { label: "How it Works", href: base + "/how" },
+    { label: "Resume Writing", href: base + "/resume" },
+    { label: "Contact", href: base + "/contact" },
+    { label: "Testimonials", href: base + "/testimonials" },
+    { label: "Blog", href: base + "/blog" },
   ];
 
   const goHome = () => {
@@ -33,7 +33,7 @@
           <li class="bg-white text-kbcblue my-2 md:m-2 md:p-2 md:my-6">
             {#if item.href === currLoc}<a
                 class="box-border border-kbcblue rounded-lg hover:border-t-2 p-2 hover:border-b-2 font-bold"
-                href="/{base}{item.href}">{item.label}</a
+                href={item.href}>{item.label}</a
               >
             {:else}
               <a

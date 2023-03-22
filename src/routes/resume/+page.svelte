@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import Navbar from "$lib/Navbar.svelte";
 
   import SvgIcon from "@jamescoyle/svelte-icon";
@@ -73,7 +74,7 @@
     </h1>
     <img
       class="py-8 px-2"
-      src="/resumehead.jpg"
+      src={base + "/resumehead.jpg"}
       alt="seated interview candidates"
     />
   </div>
@@ -132,7 +133,7 @@
 <div class="w-full bg-white p-8 grid grid-cols-1 place-items-center">
   <img
     class="sm:w-1/2 md:w-1/4"
-    src="/resumelaptop.jpg"
+    src={base + "/resumelaptop.jpg"}
     alt="a laptop writing a resume"
   />
   <div

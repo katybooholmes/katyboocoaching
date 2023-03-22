@@ -1,6 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import Navbar from "$lib/Navbar.svelte";
+  import { base } from "$app/paths";
 
   //TODO: Make contact footer component
   //TODO: Replace all gray sections with pictures
@@ -138,7 +139,7 @@
   <div class="flex flex-col md:flex-row justify-center items-start">
     <div class="flex-1 grid grid-cols-1 place-items-center">
       <img
-        src="/homeoffice.jpg"
+        src={base + "/homeoffice.jpg"}
         alt="Meeting an interview candidate at my home office"
         class="w-1/2"
       />
@@ -149,7 +150,7 @@
     </div>
     <div class="flex-1 grid grid-cols-1 place-items-center">
       <img
-        src="/virtualinterview.jpg"
+        src={base + "/virtualinterview.jpg"}
         alt="Meeting an interview candidate over Zoom"
         class="w-1/2"
       />
