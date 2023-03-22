@@ -16,7 +16,7 @@ const config = {
 			assets: 'docs'
 		}),
 		paths: {
-
+			base: "/katyboocoaching"
 		},
 	},
 	preprocess: vitePreprocess()
