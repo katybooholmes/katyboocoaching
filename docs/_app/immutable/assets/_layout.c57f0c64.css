@@ -627,9 +627,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/katyboocoaching\/aboutbgstock\.jpg\'\)\] {
-  background-image: url('/katyboocoaching/aboutbgstock.jpg');
-}
 .bg-cover {
   background-size: cover;
 }
