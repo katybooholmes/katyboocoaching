@@ -12,7 +12,7 @@
 </div>
 
 <div class="w-full bg-white p-8">
-  <div class="flex justify-center items start px-8 lg:w-2/3 gap-8">
+  <div class="flex justify-center items-start px-8 lg:w-2/3 gap-8">
     <div class="flex-1">
       <img src={base + "/blog1.jpg"} alt="" />
       <img src="" alt="" />

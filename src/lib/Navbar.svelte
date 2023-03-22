@@ -31,7 +31,7 @@
         <li class="px-4" />
         {#each navItems as item}
           <li class="bg-white text-kbcblue my-2 md:m-2 md:p-2 md:my-6">
-            {#if item.href === currLoc}<a
+            {#if item.href === base + currLoc}<a
                 class="box-border border-kbcblue rounded-lg hover:border-t-2 p-2 hover:border-b-2 font-bold"
                 href={item.href}>{item.label}</a
               >
