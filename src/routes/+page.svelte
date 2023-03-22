@@ -40,7 +40,7 @@
 <Navbar currLoc={"/"} />
 
 <div
-  class="w-full bg-[url('/homepageheader.jpg')] bg-no-repeat bg-cover bg-center p-16 py-32 md:pl-32"
+  class="w-full bg-[url('/katyboocoaching/homepageheader.jpg')] bg-no-repeat bg-cover bg-center p-16 py-32 md:pl-32"
 >
   <h1 class="text-white text-3xl font-bold">Interview with confidence.</h1>
   <p class="text-white py-4 w-1/2">

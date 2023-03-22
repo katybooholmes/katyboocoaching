@@ -52,7 +52,7 @@
 </div>
 
 <div
-  class="w-full bg-[url('/aboutbgstock.jpg')] bg-no-repeat bg-cover bg-bottom px-8 md:px-32 py-16"
+  class="w-full bg-[url('/katyboocoaching/aboutbgstock.jpg')] bg-no-repeat bg-cover bg-bottom px-8 md:px-32 py-16"
 >
   <div class="w-2/3 bg-white p-8 flex flex-col gap-4">
     <h1 class="text-2xl font-bold">Experienced Media Trainer</h1>
