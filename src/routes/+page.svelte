@@ -1,5 +1,4 @@
 <script lang="ts">
-  import "../app.css";
   import Navbar from "$lib/Navbar.svelte";
   import { base } from "$app/paths";
 

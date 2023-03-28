@@ -1,6 +1,5 @@
-<script>
+<script lang="ts">
   import "../app.css";
-  console.log("css imported");
 </script>
 
 <slot />
