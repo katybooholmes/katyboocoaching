@@ -17,8 +17,10 @@
 
 <Navbar currLoc={"/contact"} />
 
-<div class="w-full bg-gray-400 text-center text-4xl font-bold p-16">
-  Let's Meet
+<div
+  class="w-full flex justify-center bg-[url('/contactheader.jpg')] bg-cover bg-no-repeat bg-top text-center text-4xl font-bold p-32"
+>
+  <div class="">Let's Meet</div>
 </div>
 
 <div class="bg-white w-full flex justify-center">

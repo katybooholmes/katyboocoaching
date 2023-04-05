@@ -5,7 +5,7 @@
 <Navbar currLoc={"/about"} />
 
 <div
-  class="w-full px-8 md:px-32 py-32 text-white bg-gray-400 font-bold text-4xl"
+  class="w-full px-8 md:px-32 py-32 text-white bg-[url('/aboutheader.jpg')] bg-no-repeat bg-cover bg-top font-bold text-4xl"
 >
   What's <i>your</i> story?
 </div>
@@ -28,7 +28,7 @@
 <div
   class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8"
 >
-  <div class="flex-1">image of logos</div>
+  <div class="flex-1"><img src="/logos.jpg" alt="logos" /></div>
   <div class="flex-1 flex flex-col gap-4">
     <h1 class="font-bold text-2xl">Master Interviewer</h1>
     <p>
@@ -52,7 +52,7 @@
 </div>
 
 <div
-  class="w-full bg-gray-400 bg-no-repeat bg-cover bg-bottom px-8 md:px-32 py-16"
+  class="w-full bg-[url('/aboutbgstock.jpg')] bg-no-repeat bg-cover bg-bottom px-8 md:px-32 py-16"
 >
   <div class="w-2/3 bg-white p-8 flex flex-col gap-4">
     <h1 class="text-2xl font-bold">Experienced Media Trainer</h1>

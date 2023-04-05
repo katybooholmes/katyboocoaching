@@ -22,7 +22,9 @@
 
 <Navbar currLoc={"/how"} />
 
-<div class="w-full bg-gray-400 py-32 text-center text-white text-4xl font-bold">
+<div
+  class="w-full bg-[url('/howheader.jpg')] bg-no-repeat bg-cover bg-top py-32 text-center text-white text-4xl font-bold"
+>
   Let's Work Together
 </div>
 <div class="w-full py-8 bg-white grid grid-cols-1 place-items-center">
@@ -57,7 +59,9 @@
     </div>
   </div>
 </div>
-<div class="w-full bg-gray-400 py-32 flex justify-center">
+<div
+  class="w-full bg-[url('/tip210.jpg')] bg-no-repeat bg-cover py-32 flex justify-center"
+>
   <div class="py-8 bg-white w-1/2 text-center">
     <h1 class="font-bold text-2xl pb-2">TIP #210</h1>
     <p class="px-8">

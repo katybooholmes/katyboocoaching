@@ -5,14 +5,16 @@
 
 <Navbar currLoc={"/blog"} />
 
-<div class="text-2xl font-light w-full bg-gray-400 p-16 text-center text-white">
+<div
+  class="text-2xl font-light w-full bg-[url('/blogheader.jpg')] bg-no-repeat bg-cover p-16 text-center text-white"
+>
   <h1>The</h1>
   <h1 class="font-bold uppercase">Good Answer</h1>
   <h1>Blog</h1>
 </div>
 
 <div class="w-full bg-white p-8">
-  <div class="flex justify-center items-start px-8 lg:w-2/3 gap-8">
+  <div class="flex justify-center items-start px-8 gap-8">
     <div class="flex-1">
       <img src={base + "/blog1.jpg"} alt="" />
       <img src="" alt="" />

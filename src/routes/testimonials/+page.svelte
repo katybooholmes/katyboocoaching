@@ -23,7 +23,9 @@
 
 <Navbar currLoc={"/testimonials"} />
 
-<div class="w-full bg-gray-400 py-16 text-3xl text-white font-bold text-center">
+<div
+  class="w-full bg-[url('/testimonialsheader.jpg')] bg-cover bg-no-repeat py-32 text-3xl text-white font-bold text-center"
+>
   Testimonials
 </div>
 

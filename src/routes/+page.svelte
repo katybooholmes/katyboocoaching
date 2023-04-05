@@ -3,9 +3,7 @@
   import { base } from "$app/paths";
 
   //TODO: Make contact footer component
-  //TODO: Replace all gray sections with pictures
-  //TODO: Make all buttons work
-  //TODO: Add favicon
+  //TODO: Make all buttons work (need blog link)
 
   const howitworksitems = [
     {
@@ -39,15 +37,17 @@
 <Navbar currLoc={"/"} />
 
 <div
-  class="w-full bg-gray-400 bg-no-repeat bg-cover bg-center p-16 py-32 md:pl-32"
+  class="w-full bg-[url('/homepageheader.jpg')] bg-no-repeat bg-cover bg-center p-16 py-32 md:pl-32"
 >
   <h1 class="text-white text-3xl font-bold">Interview with confidence.</h1>
   <p class="text-white py-4 w-1/2">
     First job interviews can be scary. My <b>personalized preparation</b> gives
     you the <b>confidence</b> to land the right job for you.
   </p>
-  <button class="bg-kbcgold font-bold py-2 px-16 rounded-md text-kbcblue"
-    >Let's talk</button
+  <a
+    href="/contact"
+    class="bg-kbcgold font-bold py-2 px-16 rounded-md text-kbcblue"
+    >Let's talk</a
   >
 </div>
 <div class="bg-kbcgold w-full py-8 grid grid-cols-1 place-items-center">
@@ -99,11 +99,13 @@
         even if you don't say a word.
       </li>
     </ul>
-    <button class="bg-kbcblue px-8 py-2 text-white rounded-lg"
-      >Schedule a session</button
+    <a href="/contact" class="bg-kbcblue px-8 py-2 text-white rounded-lg"
+      >Schedule a session</a
     >
   </div>
-  <div class="hidden md:block">pic</div>
+  <div class="hidden md:flex justify-center">
+    <img class="h-full" alt="college graduate" src="/whycoaching.jpg" />
+  </div>
 </div>
 <div class="bg-kbcblue w-full flex justify-center py-16">
   <div
@@ -121,7 +123,9 @@
   </div>
 </div>
 
-<div class="bg-gray-400 w-full py-16 flex justify-center">
+<div
+  class="bg-[url('tip90.jpg')] bg-no-repeat bg-cover bg-center w-full py-16 flex justify-center"
+>
   <div
     class="bg-white w-2/3 md:w-1/2 p-8 grid grid-cols-1 place-items-center text-kbcblue"
   >
