@@ -16,7 +16,7 @@
     {
       label: "Visual Impact",
       img: mdiFileCertificate,
-      list: ["Layout", "Branding", "Enhancements"],
+      list: ["Layout", "Branding", "Enhancements", "Design/image"],
     },
     {
       label: "Writing Quality",
@@ -41,7 +41,6 @@
         "Soft skills/behavioral strengths",
         "Distinguishing information",
         "Tone/writing style",
-        "Design/image",
       ],
     },
   ];
@@ -99,26 +98,27 @@
       </li>
       <li class="flex flex-row p-1">
         <SvgIcon class="pb-1" type={mdiType} path={mdiCheckBold} />
-        Cultivate Desire
-      </li>
-      <li class="flex flex-row p-1">
-        <SvgIcon class="pb-1" type={mdiType} path={mdiCheckBold} />
         Inspire Action
       </li>
     </ul>
   </div>
 </div>
-<div class="w-full bg-kbcgold py-16 flex justify-center">
+<div class="w-full bg-kbcgold py-16 flex text-kbcblue justify-center">
   <div>
     <h1 class="text-3xl font-bold pb-8 text-center">
-      We have 3 primary areas of focus
+      3 primary areas of focus
     </h1>
     <div
       class="flex flex-col sm:flex-row sm::justify-center sm:items-start gap-16"
     >
       {#each areasOfFocus as area}
         <div class="flex-1 grid grid-cols-1 place-items-center">
-          <SvgIcon size="72" type={mdiType} path={area.img} />
+          <SvgIcon
+            size="72"
+            class="text-kbcblue"
+            type={mdiType}
+            path={area.img}
+          />
           <h2 class="font-bold uppercase">{area.label}</h2>
           <ul class="list-disc py-2">
             {#each area.list as item}
@@ -132,12 +132,12 @@
 </div>
 <div class="w-full bg-white p-8 grid grid-cols-1 place-items-center">
   <img
-    class="sm:w-1/2 md:w-1/4"
+    class="w-1/2"
     src={base + "/resumelaptop.jpg"}
     alt="a laptop writing a resume"
   />
   <div
-    class="flex flex-col sm:flex-row sm::justify-center sm:items-start gap-8 py-4"
+    class="flex flex-col sm:flex-row sm::justify-center sm:items-start gap-8 py-8"
   >
     {#each checkMarks as checkmark}
       <div class="flex-1 grid grid-cols-1 place-items-center text-center">
@@ -149,7 +149,7 @@
         />
         <h2>{checkmark.label}</h2>
         {#if checkmark.list != undefined}
-          <ul class="list-disc text-left pl-4 pt-4">
+          <ul class="list-disc text-left pl-32 pt-4">
             {#each checkmark.list as listitem}
               <li>{listitem}</li>
             {/each}
@@ -159,8 +159,4 @@
     {/each}
   </div>
   <h2 class="py-8 text-6xl font-light">$149</h2>
-  <button
-    class="py-2 px-16 bg-white font-bold text-black border border-black border-1 hover:bg-black hover:text-white"
-    >Sign me up</button
-  >
 </div>

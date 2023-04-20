@@ -30,7 +30,7 @@
           <svg
             version="1.1"
             id="svg62"
-            width="100"
+            width="120"
             height="100"
             viewBox="0 0 722.60535 338.95334"
             sodipodi:docname="KatyBooCoaching_logo_V5_final.ai"

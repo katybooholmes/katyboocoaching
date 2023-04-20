@@ -25,11 +25,10 @@
 
 <div
   class="w-full bg-[url('/testimonialsheader.jpg')] bg-cover bg-no-repeat py-32 text-3xl text-white font-bold text-center"
->
-  Testimonials
-</div>
+/>
 
 <div class="w-full bg-kbcgold p-4 py-8 grid grid-cols-1 place-items-center">
+  <h1 class="text-3xl font-bold pb-8">Testimonials</h1>
   <div
     class="md:w-2/3 grid grid-cols-1 md:grid-cols-2 place-content-center gap-8"
   >
@@ -39,7 +38,7 @@
       </div>{/each}
   </div>
   <div class="bg-white w-2/3 py-8 my-16 text-center">
-    <h2 class="pb-2 font-bold text-2xl">TIP #168</h2>
+    <h2 class="pb-2 font-bold text-3xl">TIP #168</h2>
     <p class="px-8">
       The average corporate job attracts <b>250</b> resumes, which leads to
       <b>4-6</b>

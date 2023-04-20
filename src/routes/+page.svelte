@@ -2,9 +2,6 @@
   import Navbar from "$lib/Navbar.svelte";
   import { base } from "$app/paths";
 
-  //TODO: Make contact footer component
-  //TODO: Make all buttons work (need blog link)
-
   const howitworksitems = [
     {
       num: "1",
@@ -23,7 +20,6 @@
         "meeting and greeting",
         "identifying your key messages",
         "verbal and non-verbal communication",
-        "what to wear",
         "job interview followup duties",
       ],
     },
@@ -75,7 +71,7 @@
         </h1>
         <p class="pt-4 text-center">{item.label}</p>
         {#if item.list != undefined}
-          <ul class="list-disc">
+          <ul class="list-disc pl-8">
             {#each item.list as listitem}<li>{listitem}</li>{/each}
           </ul>
         {/if}
@@ -107,7 +103,7 @@
     <img class="h-full" alt="college graduate" src="/whycoaching.jpg" />
   </div>
 </div>
-<div class="bg-kbcblue w-full flex justify-center py-16">
+<div class="bg-kbcblue w-full flex justify-center py-8">
   <div
     class="bg-white p-8 grid grid-cols-1 w-2/3 md:w-1/2 place-items-center text-kbcblue"
   >
@@ -149,8 +145,8 @@
         class="w-1/2"
       />
       <h2 class="text-xl font-bold py-4">My Home Office</h2>
-      <p class="text-center">
-        If you're in the Twin Cities, let's meet in person
+      <p class="text-center pb-12">
+        If you're in the Twin Cities, let's meet in person.
       </p>
     </div>
     <div class="flex-1 grid grid-cols-1 place-items-center">
@@ -160,8 +156,8 @@
         class="w-1/2"
       />
       <h2 class="text-xl font-bold py-4">Virtual Meetings</h2>
-      <p class="text-center">
-        If you're out of town or want to practice virtual interviewing
+      <p class="text-center pb-12">
+        If you're out of town or want to practice virtual interviewing.
       </p>
     </div>
   </div>

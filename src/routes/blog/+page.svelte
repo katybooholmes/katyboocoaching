@@ -14,35 +14,37 @@
 </div>
 
 <div class="w-full bg-white p-8">
-  <div class="flex justify-center items-start px-8 gap-8">
-    <div class="flex-1">
-      <img src={base + "/blog1.jpg"} alt="" />
-      <img src="" alt="" />
+  <div class="grid grid-cols-1 md:flex justify-center items-start px-8 gap-8">
+    <div class="flex-1 flex flex-col place-items-end">
+      <img class="p-4" src={base + "/blog1.jpg"} alt="" />
     </div>
-    <div class="flex-1 flex flex-col gap-4">
-      <p>
+    <div class="flex-1 flex flex-col gap-4 place-items-center">
+      <p class="w-full">
         It's pretty common to hear the phrase "good question." It happens in
         conversations all the time. As a reporter, I never liked hearing that.
         Because I consider ALL my interview questions to be good questions.
       </p>
-      <p>
+      <p class="w-full">
         You don't hear the phrase Good Answer as much. Unless you're watching
         Family Feud.
       </p>
-      <p>I like to explore the skills involved in crafting a "Good Answer."</p>
-      <p>
+      <img class=" w-64" src="/steveharvey.jpeg" alt="" />
+      <p class="w-full">
+        I like to explore the skills involved in crafting a "Good Answer."
+      </p>
+      <p class="w-full">
         Obviously, a Good Answer must answer the question posed. And there's
         more than one good answer. But let's go deeper. In a job interview
         setting for example, A good answer isn't extemporaneous. You don't just
         "wing it" and hope it sounds like a good answer. It takes preparation.
       </p>
-      <p>
+      <p class="w-full">
         In fact, it takes some reverse engineering to fashion a Good Answer to a
         Good Question. A Good Answer is your unique blend of honesty, humility
         and understanding in anticipation of a question. And it better not sound
         memorized.
       </p>
-      <p>
+      <p class="w-full">
         In my career, I've interviewed thousands of people. I've heard good
         answers and crummy ones. Here's some advice on composing a compelling
         and credible <b>Good Answer</b>.
@@ -65,8 +67,11 @@
       better make it count.
     </p>
     <div class="w-full grid grid-cols-1 place-items-center py-8">
-      <button class=" bg-kbcblue text-white font-bold text-center px-16 py-2"
-        >Read Full Article</button
+      <a
+        href="https://www.tumblr.com/katybooholmes"
+        target="_blank"
+        class=" bg-kbcblue text-white font-bold text-center px-16 py-2"
+        >Read Full Article</a
       >
     </div>
   </div>

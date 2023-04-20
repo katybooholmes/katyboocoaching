@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         kbcblue: '#081253',
-        kbcgold: '#f6dd53'
+        kbcgold: '#f0c634'
       },
     },
   },

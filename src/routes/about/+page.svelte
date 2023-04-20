@@ -1,5 +1,18 @@
 <script lang="ts">
   import Navbar from "$lib/Navbar.svelte";
+  const images = [
+    "/logos.jpg",
+    "/Unknown.png",
+    "/Unknown-1.jpeg",
+    "/Unknown-2.jpeg",
+    "/Unknown-2.png",
+    "/Unknown-3.png",
+    "/Unknown-4.jpeg",
+    "/Unknown-4.png",
+    "/Unknown-5.png",
+    "/Unknown-6.png",
+    "/Unknown-7.png",
+  ];
 </script>
 
 <Navbar currLoc={"/about"} />
@@ -28,7 +41,9 @@
 <div
   class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8"
 >
-  <div class="flex-1"><img src="/logos.jpg" alt="logos" /></div>
+  <div class="flex-1 grid grid-cols-3 gap-2 items-center justify-items-center">
+    {#each images as image}<img src={"/logos" + image} alt="logos" />{/each}
+  </div>
   <div class="flex-1 flex flex-col gap-4">
     <h1 class="font-bold text-2xl">Master Interviewer</h1>
     <p>
@@ -72,7 +87,7 @@
     <p>
       I live in the Twin Cities. You might find me walking around one of the
       lakes. Or working on my latest project: hand-painting cool signs on
-      century-old reclaimed barnwood. See more at <a
+      century-old reclaimed barnwood. <a
         class="text-kbcblue hover:underline"
         href="https://www.reclaimedwords.com">www.reclaimedwords.com</a
       >
