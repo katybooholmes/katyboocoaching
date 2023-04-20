@@ -53,11 +53,7 @@
     class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8 xl:w-1/2"
   >
     <div class="flex-1 grid grid-cols-3 items-center justify-items-center">
-      {#each images as image}{#if image === "/logos.jpg"}<img
-            class="row-span-2"
-            src={"/logos" + image}
-            alt="logos"
-          />{:else}<img src={"/logos" + image} alt="logos" />{/if}{/each}
+      {#each images as image}<img src={"/logos" + image} alt="logos" />{/each}
     </div>
     <div class="flex-1 flex flex-col gap-4">
       <h1 class="font-bold text-2xl">Master Interviewer</h1>
