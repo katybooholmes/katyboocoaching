@@ -17,10 +17,18 @@
 
 <Navbar currLoc={"/about"} />
 
-<div
-  class="w-full px-8 md:px-32 py-32 text-white bg-[url('/aboutheader.jpg')] bg-no-repeat bg-cover bg-top font-bold text-4xl"
->
-  What's <i>your</i> story?
+<div class="grid grid-cols-2 place-items-center h-64">
+  <div
+    class="absolute w-full px-8 md:px-32 py-32 bg-[url('/mnskyline.jpg')] brightness-50 bg-no-repeat bg-cover bg-top"
+  />
+  <h1 class="text-4xl font-bold text-white brightness-200 z-10">
+    What's <i>your</i> story?
+  </h1>
+  <img
+    src="/headshot.jpg"
+    alt="headshot"
+    class="rounded-full w-48 z-10 border-white border-2"
+  />
 </div>
 <div class="w-full bg-white px-8 md:px-32 py-8 flex flex-col gap-4">
   <p>
@@ -38,34 +46,39 @@
     in Dollywood, TN.
   </p>
 </div>
-<div
-  class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8"
->
-  <div class="flex-1 grid grid-cols-3 gap-2 items-center justify-items-center">
-    {#each images as image}<img src={"/logos" + image} alt="logos" />{/each}
-  </div>
-  <div class="flex-1 flex flex-col gap-4">
-    <h1 class="font-bold text-2xl">Master Interviewer</h1>
-    <p>
-      I've interviewed scientists, exploreres and environmentalists for <b
-        >National Geographic</b
-      >. I interviewed influencers for <b>Oprah</b>'s 2020 National Tour.
-    </p>
-    <p>
-      For home makeover shows on <b>HGTV</b> and <b>DIY</b>, I've interviewed tv
-      stars and regular folks looking for 15 minutes of fame and a new bathroom.
-      I interviewed interesting people in exotic locations for
-      <b>The Travel Channel</b>. My work for <b>Animal Planet</b> included interviewing
-      dog owner and their dogs. The dogs were way cooler.
-    </p>
-    <p>
-      When I was interviewing on the campaign trail, Jesse Ventura taught me a
-      sweet thumb wrestling move. He was a pro wrestler. And then Minnesota's
-      governor.
-    </p>
+<div class="w-full grid grid-cols-1 place-items-center">
+  <div
+    class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8 xl:w-1/2"
+  >
+    <div class="flex-1 grid grid-cols-3 items-center justify-items-center">
+      {#each images as image}{#if image === "/logos.jpg"}<img
+            class="row-span-2"
+            src={"/logos" + image}
+            alt="logos"
+          />{:else}<img src={"/logos" + image} alt="logos" />{/if}{/each}
+    </div>
+    <div class="flex-1 flex flex-col gap-4">
+      <h1 class="font-bold text-2xl">Master Interviewer</h1>
+      <p>
+        I've interviewed scientists, exploreres and environmentalists for <b
+          >National Geographic</b
+        >. I interviewed influencers for <b>Oprah</b>'s 2020 National Tour.
+      </p>
+      <p>
+        For home makeover shows on <b>HGTV</b> and <b>DIY</b>, I've interviewed
+        tv stars and regular folks looking for 15 minutes of fame and a new
+        bathroom. I interviewed interesting people in exotic locations for
+        <b>The Travel Channel</b>. My work for <b>Animal Planet</b> included interviewing
+        dog owner and their dogs. The dogs were way cooler.
+      </p>
+      <p>
+        When I was interviewing on the campaign trail, Jesse Ventura taught me a
+        sweet thumb wrestling move. He was a pro wrestler. And then Minnesota's
+        governor.
+      </p>
+    </div>
   </div>
 </div>
-
 <div
   class="w-full bg-[url('/aboutbgstock.jpg')] bg-no-repeat bg-cover bg-bottom px-8 md:px-32 py-16"
 >

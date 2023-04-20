@@ -77,7 +77,7 @@
       alt="seated interview candidates"
     />
   </div>
-  <ul class="text-left list-disc w-1/2 py-8 border-kbcgold border-y-2">
+  <ul class="text-left list-disc w-1/2 py-8 md:pl-16 border-kbcgold border-y-2">
     <li>
       Our goal is to write meaningful content that previews your potential
     </li>

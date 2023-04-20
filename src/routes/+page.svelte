@@ -120,7 +120,7 @@
 </div>
 
 <div
-  class="bg-[url('tip90.jpg')] bg-no-repeat bg-cover bg-center w-full py-16 flex justify-center"
+  class="bg-[url('/tip90.jpg')] bg-no-repeat bg-cover bg-center w-full py-16 flex justify-center"
 >
   <div
     class="bg-white w-2/3 md:w-1/2 p-8 grid grid-cols-1 place-items-center text-kbcblue"
