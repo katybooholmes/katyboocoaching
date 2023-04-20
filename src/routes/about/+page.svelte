@@ -30,7 +30,9 @@
     class="rounded-full w-48 z-10 border-white border-2"
   />
 </div>
-<div class="w-full bg-white px-8 md:px-32 py-8 flex flex-col gap-4">
+<div
+  class="w-full bg-white px-8 md:px-32 py-8 flex flex-col gap-4 xl:text-center"
+>
   <p>
     I've spent 30+ years on both sides of the camera. As a TV reporter, I
     interviewed execs and professionals, athletes and rock stars, politicians
