@@ -53,9 +53,9 @@
   </div>
 </div>
 <div class="w-full bg-kbcgold p-8 grid grid-cols-1 place-items-center">
-  <div class="w-2/3">
+  <div class="w-2/3 grid grid-cols-1 gap-4">
     <h2 class="text-center font-bold text-2xl">Do your Homework</h2>
-    <p class="py-4">
+    <p>
       Just because you graduated from college and you're in the "real world"
       doesn't mean you're finished with homework. In fact, if you want to land a
       good job, your homework is more important than ever.
@@ -66,13 +66,37 @@
       are high. If you are one of the lucky ones to get a job interview, you
       better make it count.
     </p>
-    <div class="w-full grid grid-cols-1 place-items-center py-8">
-      <a
-        href="https://www.tumblr.com/katybooholmes"
-        target="_blank"
-        class=" bg-kbcblue text-white font-bold text-center px-16 py-2"
-        >Read Full Article</a
-      >
-    </div>
+    <p>
+      As an interview coach, one of the areas I cover is Research. As in,
+      researching your prospective company. If you don't do your homework before
+      your interview, it shows. Hiring managers say one of their biggest pet
+      peeves is when candidates ask questions that are clearly on the company
+      website.
+    </p>
+    <p>
+      Ed Huerta-Margotta, Director of Recruiting at Carmichael Lynch Creative Ad
+      Agency, says if you ask him what clients he has, your interview is
+      essentially dead in the water. Every company has a website. He says, "If
+      you're passionate about working with us, you should pore over our website
+      and work to learn as much as you can about us."
+    </p>
+    <p>
+      The candidates that shine are the ones who can talk intelligently about
+      the company. Being unprepared looks unprofessional. In a situation where
+      you need every advantage, thoroughly researching the company is mandatory.
+    </p>
+    <p>
+      Gone are the days of cramming for tests, but homework is here to stay. In
+      order to be in the running for your ideal job, you better be able to prove
+      to hiring managers that you've done your research.
+    </p>
+    <!-- <div class="w-full grid grid-cols-1 place-items-center py-8"> -->
+    <!--   <a -->
+    <!--     href="https://www.tumblr.com/katybooholmes" -->
+    <!--     target="_blank" -->
+    <!--     class=" bg-kbcblue text-white font-bold text-center px-16 py-2" -->
+    <!--     >Read Full Article</a -->
+    <!--   > -->
+    <!-- </div> -->
   </div>
 </div>
