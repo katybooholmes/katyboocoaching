@@ -50,11 +50,18 @@
 </div>
 <div class="w-full grid grid-cols-1 place-items-center">
   <div
-    class="w-full bg-white flex flex-row justify-center gap-8 px-8 md:px-32 py-8 xl:w-1/2"
+    class="w-full bg-white flex flex-col-reverse md:flex-row justify-center gap-8 px-8 md:px-32 py-8"
   >
-    <div class="flex-1 grid grid-cols-3 items-center justify-items-center">
-      {#each images as image}<img src={"/logos" + image} alt="logos" />{/each}
+    <div class="flex-1 flex md:justify-end">
+      <img
+        class="object-contain max-h-96"
+        alt="logos of companies worked with"
+        src="/logogrid.jpg"
+      />
     </div>
+    <!-- <div class="flex-1 grid grid-cols-3 items-center justify-items-center"> -->
+    <!--   {#each images as image}<img src={"/logos" + image} alt="logos" />{/each} -->
+    <!-- </div> -->
     <div class="flex-1 flex flex-col gap-4">
       <h1 class="font-bold text-2xl">Master Interviewer</h1>
       <p>
